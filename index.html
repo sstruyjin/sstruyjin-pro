@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Владимир Сикорский</title>
+<meta name="description" content="Операционный интегратор для растущих компаний — кейсы и формат работы.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EEF2F4;
+    --paper:#FFFFFF;
+    --paper-2:#E3E9EC;
+    --ink:#16232E;
+    --ink-soft:#3E4E5A;
+    --muted:#6B7C88;
+    --line:#9FB2BE;
+    --line-soft:#C7D3D9;
+    --accent:#B85C1D;
+    --accent-ink:#FFFFFF;
+    --tag-ok-bg:#E4EFE6;
+    --tag-ok-ink:#2E6B3E;
+    --tag-pending-bg:#F3E9DC;
+    --tag-pending-ink:#8A5A20;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0C1A26; --paper:#122334; --paper-2:#0E1E2C; --ink:#DCE6EC; --ink-soft:#B7C6D0;
+      --muted:#7E93A1; --line:#3C5768; --line-soft:#26394A; --accent:#E08A3E; --accent-ink:#14212E;
+      --tag-ok-bg:#1B3324; --tag-ok-ink:#8FCB9C; --tag-pending-bg:#3A2C17; --tag-pending-ink:#E3B778;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0C1A26; --paper:#122334; --paper-2:#0E1E2C; --ink:#DCE6EC; --ink-soft:#B7C6D0;
+    --muted:#7E93A1; --line:#3C5768; --line-soft:#26394A; --accent:#E08A3E; --accent-ink:#14212E;
+    --tag-ok-bg:#1B3324; --tag-ok-ink:#8FCB9C; --tag-pending-bg:#3A2C17; --tag-pending-ink:#E3B778;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Source Serif 4","Georgia",serif; font-size:17px; line-height:1.6;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:0 24px;}
+  h1,h2,h3,.eyebrow,.label,.stat{font-family:"Big Shoulders Display","Arial Narrow",sans-serif;}
+  h1,h2,h3{text-wrap:balance;color:var(--ink);font-weight:700;letter-spacing:0.2px;margin:0;}
+  code,.mono,.tag,.eyebrow,.label,.meta{font-family:"IBM Plex Mono","SF Mono",monospace;}
+  a{color:var(--accent);}
+  header.site{border-bottom:1px solid var(--line-soft);padding:22px 0;}
+  header.site .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .brand{font-family:"Big Shoulders Display",sans-serif;font-size:22px;font-weight:700;letter-spacing:0.5px;}
+  nav.top a{color:var(--muted);text-decoration:none;font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:0.04em;margin-left:22px;text-transform:uppercase;}
+  nav.top a:hover{color:var(--accent);}
+  .hero{padding:64px 0 40px;}
+  .eyebrow{display:inline-block;color:var(--accent);font-size:13px;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:18px;border:1px solid var(--accent);padding:4px 10px;border-radius:2px;}
+  h1.headline{font-size:44px;line-height:1.08;max-width:14ch;margin:0 0 22px;}
+  .sub{font-size:19px;color:var(--ink-soft);max-width:56ch;margin:0 0 30px;}
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-family:"IBM Plex Mono",monospace;font-size:13px;letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;padding:12px 20px;border-radius:2px;}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);}
+  .diagram-block{padding:20px 0 56px;}
+  .diagram-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line-soft);border-radius:3px;overflow:hidden;background:var(--paper);}
+  .diagram-cell{padding:26px 22px 20px;}
+  .diagram-cell + .diagram-cell{border-left:1px solid var(--line-soft);}
+  .diagram-cell .cap{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
+  .diagram-cell .cap b{color:var(--ink-soft);}
+  .diagram-cell svg{width:100%;height:auto;display:block;margin-top:10px;}
+  @media (max-width:640px){.diagram-grid{grid-template-columns:1fr;}.diagram-cell + .diagram-cell{border-left:none;border-top:1px solid var(--line-soft);}}
+  .pattern{padding:8px 0 56px;}
+  .pattern p.lede{font-size:18px;color:var(--ink-soft);max-width:70ch;margin-bottom:26px;}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;}
+  .chip{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-soft);border:1px solid var(--line);border-radius:2px;padding:7px 12px;background:var(--paper);}
+  section{padding:56px 0;border-top:1px solid var(--line-soft);}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:30px;flex-wrap:wrap;}
+  .section-head h2{font-size:28px;}
+  .section-head .count{font-family:"IBM Plex Mono",monospace;color:var(--muted);font-size:13px;}
+  .case{background:var(--paper);border:1px solid var(--line-soft);border-radius:3px;padding:24px 26px;margin-bottom:16px;}
+  .case-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:12px;flex-wrap:wrap;}
+  .case-top h3{font-size:20px;}
+  .tag{font-size:11.5px;letter-spacing:0.04em;text-transform:uppercase;padding:4px 9px;border-radius:2px;white-space:nowrap;}
+  .tag.ok{background:var(--tag-ok-bg);color:var(--tag-ok-ink);}
+  .tag.pending{background:var(--tag-pending-bg);color:var(--tag-pending-ink);}
+  .case dl{display:grid;grid-template-columns:120px 1fr;gap:8px 16px;margin:0;}
+  .case dt{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em;padding-top:2px;}
+  .case dd{margin:0;color:var(--ink-soft);}
+  .case.minor{padding:16px 22px;}
+  .case.minor .case-top h3{font-size:17px;}
+  .case.minor p{margin:0;color:var(--muted);font-size:15px;}
+  .paths{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  @media (max-width:640px){.paths{grid-template-columns:1fr;}}
+  .path{background:var(--paper);border:1px solid var(--line-soft);border-radius:3px;padding:26px;}
+  .path .num{font-family:"IBM Plex Mono",monospace;color:var(--accent);font-size:13px;margin-bottom:10px;display:block;}
+  .path h3{font-size:20px;margin:0 0 10px;}
+  .path p{color:var(--ink-soft);margin:0 0 14px;font-size:15.5px;}
+  .path ol{margin:0;padding-left:18px;color:var(--muted);font-size:14px;font-family:"IBM Plex Mono",monospace;line-height:1.9;}
+  .boundary{background:var(--paper-2);border:1px solid var(--line-soft);border-radius:3px;padding:20px 24px;font-size:14.5px;color:var(--muted);}
+  .boundary b{color:var(--ink-soft);}
+  .contact h2{font-size:30px;margin-bottom:14px;}
+  .contact p{max-width:60ch;color:var(--ink-soft);font-size:17px;margin-bottom:26px;}
+  footer{padding:30px 0 60px;color:var(--muted);font-size:13px;font-family:"IBM Plex Mono",monospace;}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="brand">В. СИКОРСКИЙ</div>
+    <nav class="top">
+      <a href="#pattern">Паттерн</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#paths">Форматы работы</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" style="border-top:none;padding-top:64px;">
+    <div class="eyebrow">Операционный интегратор</div>
+    <h1 class="headline">Собираю систему там, где рост обогнал управление.</h1>
+    <p class="sub">Помогаю владельцам растущих компаний перевести управление из состояния «держится на одном человеке» в рабочую систему: роли, процессы, отчётность, инструменты, контроль.</p>
+    <div class="cta-row">
+      <a class="btn" href="#contact">Написать</a>
+      <a class="btn ghost" href="#pattern">Как это выглядит</a>
+    </div>
+  </section>
+
+  <div class="diagram-block">
+    <div class="diagram-grid">
+      <div class="diagram-cell">
+        <div class="cap">До · <b>держится на одном герое</b></div>
+        <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="var(--line)" stroke-width="1.4">
+            <line x1="130" y1="100" x2="40" y2="34"/>
+            <line x1="130" y1="100" x2="130" y2="24"/>
+            <line x1="130" y1="100" x2="220" y2="34"/>
+            <line x1="130" y1="100" x2="34" y2="150"/>
+            <line x1="130" y1="100" x2="130" y2="180"/>
+            <line x1="130" y1="100" x2="226" y2="150"/>
+          </g>
+          <g font-family="IBM Plex Mono, monospace" font-size="9.5" fill="var(--muted)" text-anchor="middle">
+            <text x="40" y="24">Продажи</text>
+            <text x="130" y="16">Найм</text>
+            <text x="220" y="24">Финансы</text>
+            <text x="34" y="166">Маркетинг</text>
+            <text x="130" y="196">IT</text>
+            <text x="226" y="166">Подрядчики</text>
+          </g>
+          <g>
+            <circle cx="40" cy="34" r="4" fill="var(--paper)" stroke="var(--line)"/>
+            <circle cx="130" cy="24" r="4" fill="var(--paper)" stroke="var(--line)"/>
+            <circle cx="220" cy="34" r="4" fill="var(--paper)" stroke="var(--line)"/>
+            <circle cx="34" cy="150" r="4" fill="var(--paper)" stroke="var(--line)"/>
+            <circle cx="130" cy="180" r="4" fill="var(--paper)" stroke="var(--line)"/>
+            <circle cx="226" cy="150" r="4" fill="var(--paper)" stroke="var(--line)"/>
+          </g>
+          <circle cx="130" cy="100" r="11" fill="var(--accent)"/>
+          <text x="130" y="124" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="var(--ink-soft)" text-anchor="middle">основатель</text>
+        </svg>
+      </div>
+      <div class="diagram-cell">
+        <div class="cap">После · <b>работает без ручного контроля</b></div>
+        <svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="var(--line)" stroke-width="1.2">
+            <line x1="40" y1="40" x2="130" y2="30"/>
+            <line x1="130" y1="30" x2="220" y2="40"/>
+            <line x1="40" y1="40" x2="34" y2="150"/>
+            <line x1="220" y1="40" x2="226" y2="150"/>
+            <line x1="34" y1="150" x2="130" y2="180"/>
+            <line x1="226" y1="150" x2="130" y2="180"/>
+            <line x1="40" y1="40" x2="226" y2="150" stroke-dasharray="2 3"/>
+            <line x1="220" y1="40" x2="34" y2="150" stroke-dasharray="2 3"/>
+          </g>
+          <g font-family="IBM Plex Mono, monospace" font-size="9.5" fill="var(--muted)" text-anchor="middle">
+            <text x="40" y="30">Продажи</text>
+            <text x="130" y="20">Найм</text>
+            <text x="220" y="30">Финансы</text>
+            <text x="34" y="166">Маркетинг</text>
+            <text x="130" y="196">IT</text>
+            <text x="226" y="166">Подрядчики</text>
+          </g>
+          <g fill="var(--paper)" stroke="var(--accent)" stroke-width="1.6">
+            <circle cx="40" cy="40" r="5"/>
+            <circle cx="130" cy="30" r="5"/>
+            <circle cx="220" cy="40" r="5"/>
+            <circle cx="34" cy="150" r="5"/>
+            <circle cx="130" cy="180" r="5"/>
+            <circle cx="226" cy="150" r="5"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <section class="pattern" id="pattern" style="border-top:none;padding-top:0;">
+    <p class="lede">Паттерн повторился в четырёх организациях подряд: меня зовут туда, где компания выросла быстрее, чем успела выстроить управление — и я перевожу систему из ручного контроля в понятную структуру: роли, процессы, цифры, коммуникации, инструменты.</p>
+    <div class="chips">
+      <span class="chip">Проектное бюро</span>
+      <span class="chip">IT-компания OPEN</span>
+      <span class="chip">География путешествий</span>
+      <span class="chip">Жилищный баланс — текущий проект</span>
+    </div>
+  </section>
+
+  <section id="cases">
+    <div class="section-head">
+      <h2>Кейсы</h2>
+      <span class="count">2 развёрнутых · 2 в сборе</span>
+    </div>
+
+    <div class="case">
+      <div class="case-top">
+        <h3>OPEN — школа навыков современного человека</h3>
+        <span class="tag ok">Подтверждено артефактами</span>
+      </div>
+      <dl>
+        <dt>Контекст</dt>
+        <dd>Два эксперта, несколько B2C/B2B-направлений — нужно было собрать экспертные услуги в продуктовую линейку, сайт и продажи.</dd>
+        <dt>Что делал</dt>
+        <dd>Project manager: сайты на Tilda, контент и соцсети, Telegram-бот, участие в сборке программ, организация мероприятий и участия в T&D Беларусь.</dd>
+        <dt>Результат</dt>
+        <dd>Курс «Управление фокусом внимания» — снят, смонтирован и запущен лично, первые продажи. Участие в T&D Беларусь — около 25–30 контактов, база для последующих корпоративных тренингов.</dd>
+      </dl>
+    </div>
+
+    <div class="case">
+      <div class="case-top">
+        <h3>Жилищный баланс</h3>
+        <span class="tag ok">Текущий проект</span>
+      </div>
+      <dl>
+        <dt>Контекст</dt>
+        <dd>Управляющая компания в сфере недвижимости на стадии роста, отчётность и координация решений держались на ручном контроле.</dd>
+        <dt>Что делал</dt>
+        <dd>Запустил регулярную Планёрку РФП, оргструктура и должностные инструкции, годовой план системы управления; лично выявил техническую склейку лидов в CRM, затрагивавшую порядка 400–500 лидов в месяц.</dd>
+        <dt>Результат</dt>
+        <dd>Работает регулярная система координации руководителей вместо разовых совещаний. Показатели отдела маркетинга — результат команды, личный вклад в них отдельно не измерен.</dd>
+      </dl>
+    </div>
+
+    <div class="case minor">
+      <div class="case-top"><h3>География путешествий</h3></div>
+      <p>Выстраивал воронку и CRM, разбирал экономику направлений — цифры результата собираются и будут указаны только после проверки первичного расчёта.</p>
+    </div>
+    <div class="case minor">
+      <div class="case-top"><h3>Проектное бюро</h3></div>
+      <p>Системный администратор / менеджер проекта, два периода 2019–2023 — устойчивость инфраструктуры и инициативы за пределами прямых задач, раздел будет дополнен.</p>
+    </div>
+  </section>
+
+  <section id="paths">
+    <div class="section-head"><h2>Форматы работы</h2></div>
+    <div class="paths">
+      <div class="path">
+        <span class="num">01</span>
+        <h3>Сильная операционная роль</h3>
+        <p>Подходит, если у вас уже есть стратегическое лидерство, но не хватает человека, который выстроит и удержит операционную систему — с реальными полномочиями, не декоративной должностью.</p>
+      </div>
+      <div class="path">
+        <span class="num">02</span>
+        <h3>Вход операционным партнёром</h3>
+        <p>Подходит, если управление готовы постепенно передать. Долгосрочный вход с денежным вознаграждением и заранее согласованным участием в результате или капитале.</p>
+        <ol>
+          <li>Оплачиваемая совместная работа</li>
+          <li>Согласование условий</li>
+          <li>Полная операционная ответственность</li>
+          <li>Доля / % — по факту условий</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="boundary">
+      <b>Чего не заявляю без подтверждения:</b> «антикризисный управляющий», «финансовый директор», «строю бизнесы под ключ», кратные показатели роста без проверенной цифры, стаж без сверенной хронологии. Если что-то из кейсов звучит громче, чем есть доказательство — это повод спросить, не повод верить на слово.
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Написать</h2>
+    <p>Ищу растущий бизнес, где основатель стал ограничением для дальнейшего роста. Открыт и к сильной операционной роли, и к разговору про партнёрство — какой формат подойдёт, обычно понятно после одного разговора.</p>
+    <a class="btn" href="mailto:vdangersv@gmail.com">vdangersv@gmail.com</a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Черновик — версия для обкатки формулировок, не финальная публикация.</div>
+</footer>
+
+</body>
+</html>
