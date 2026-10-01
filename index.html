@@ -133,15 +133,21 @@
   /* pattern spread */
   .spread{display:grid;grid-template-columns:1fr 1fr;gap:16px 56px;align-items:start;}
   @media (max-width:820px){ .spread{grid-template-columns:1fr;gap:40px;} }
-  .spread .diagram-row{display:flex;gap:32px;flex-wrap:wrap;}
+
+  /* diagram — fixed dark boardroom-slide panel, not theme-dependent */
+  .diagram-panel{
+    background:#15110B;border:1px solid #352A17;border-radius:3px;
+    padding:30px 28px 26px;
+  }
+  .diagram-row{display:flex;gap:28px;flex-wrap:wrap;}
   .diagram-cell{flex:1 1 180px;}
   .diagram-cell .cap{
     font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:0.06em;
-    text-transform:uppercase;color:var(--muted);margin-bottom:12px;
+    text-transform:uppercase;color:#8C7C5C;margin-bottom:14px;
   }
-  .diagram-cell .cap b{color:var(--sumi-soft);font-weight:500;}
+  .diagram-cell .cap b{color:#D9A646;font-weight:500;}
   .diagram-cell svg{width:100%;height:auto;display:block;max-width:200px;}
-  .diagram-caption{font-size:13.5px;color:var(--muted);max-width:44ch;margin-top:16px;line-height:1.8;}
+  .diagram-caption{font-size:13.5px;color:#B7AA8C;max-width:48ch;margin-top:22px;line-height:1.8;}
 
   /* chronology */
   .chronology{border-top:1px solid var(--line-faint);margin-top:34px;}
@@ -155,23 +161,27 @@
 
   /* cases */
   .case-featured{
-    padding:32px 36px;background:var(--washi-2);border:1px solid var(--line);
-    border-radius:2px;margin-bottom:8px;
+    padding:34px 36px;background:#15110B;border:1px solid #352A17;
+    border-radius:3px;margin-bottom:8px;
   }
   .case-top{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-bottom:14px;flex-wrap:wrap;}
   .case-top h3{font-size:25px;font-weight:700;}
+  .case-featured .case-top h3{color:#F3EAD9;}
   .tag{
     font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:0.06em;text-transform:uppercase;
     padding:3px 9px;border-radius:1px;white-space:nowrap;
   }
   .tag.ok{background:var(--tag-ok-bg);color:var(--tag-ok-ink);}
   .tag.pending{background:var(--tag-pending-bg);color:var(--tag-pending-ink);}
+  .case-featured .tag.ok{background:#28311D;color:#ABCB8B;}
   .case dl{display:grid;grid-template-columns:110px 1fr;gap:10px 20px;margin:0 0 24px;max-width:66ch;}
   .case dt{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;padding-top:3px;}
   .case dd{margin:0;color:var(--sumi-soft);}
+  .case-featured dt{color:#8C7C5C;}
+  .case-featured dd{color:#C9BBA0;}
   .stat-row{display:flex;gap:52px;flex-wrap:wrap;}
-  .stat .n{font-family:"Fraunces",serif;font-size:44px;color:var(--shu);font-weight:700;line-height:1;}
-  .stat .l{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);letter-spacing:0.04em;margin-top:6px;display:block;max-width:20ch;}
+  .stat .n{font-family:"Fraunces",serif;font-size:46px;color:#D9A646;font-weight:700;line-height:1;}
+  .stat .l{font-family:"IBM Plex Mono",monospace;font-size:11px;color:#8C7C5C;letter-spacing:0.04em;margin-top:8px;display:block;max-width:20ch;}
 
   .pause{padding:44px 0 8px;}
   .pause p{
@@ -255,12 +265,12 @@
       <span class="section-head-num mono" style="color:var(--shu);font-size:12px;letter-spacing:0.1em;display:block;margin-bottom:18px;">01 — Паттерн</span>
       <div class="spread">
         <p class="lede">Он повторился в четырёх организациях подряд: меня зовут туда, где компания выросла быстрее, чем успела выстроить управление — и я перевожу систему из ручного контроля в понятную структуру: роли, процессы, цифры, коммуникации, инструменты.</p>
-        <div>
+        <div class="diagram-panel">
       <div class="diagram-row">
         <div class="diagram-cell">
           <div class="cap">До · <b>держится на одном герое</b></div>
           <svg viewBox="0 0 230 190" xmlns="http://www.w3.org/2000/svg">
-            <g stroke="var(--line)" stroke-width="1">
+            <g stroke="#6B5A3A" stroke-width="2.5">
               <line x1="115" y1="95" x2="35" y2="30"/>
               <line x1="115" y1="95" x2="115" y2="20"/>
               <line x1="115" y1="95" x2="195" y2="30"/>
@@ -268,54 +278,56 @@
               <line x1="115" y1="95" x2="115" y2="172"/>
               <line x1="115" y1="95" x2="200" y2="145"/>
             </g>
-            <g font-family="IBM Plex Mono, monospace" font-size="9" fill="var(--muted)" text-anchor="middle">
-              <text x="35" y="20">Продажи</text>
-              <text x="115" y="12">Найм</text>
-              <text x="195" y="20">Финансы</text>
-              <text x="30" y="161">Маркетинг</text>
-              <text x="115" y="188">IT</text>
-              <text x="200" y="161">Подрядчики</text>
+            <g font-family="IBM Plex Mono, monospace" font-size="10" font-weight="500" fill="#C9BBA0" text-anchor="middle">
+              <text x="35" y="18">Продажи</text>
+              <text x="115" y="10">Найм</text>
+              <text x="195" y="18">Финансы</text>
+              <text x="30" y="163">Маркетинг</text>
+              <text x="115" y="190">IT</text>
+              <text x="200" y="163">Подрядчики</text>
             </g>
-            <g>
-              <circle cx="35" cy="30" r="3" fill="var(--washi)" stroke="var(--line)"/>
-              <circle cx="115" cy="20" r="3" fill="var(--washi)" stroke="var(--line)"/>
-              <circle cx="195" cy="30" r="3" fill="var(--washi)" stroke="var(--line)"/>
-              <circle cx="30" cy="145" r="3" fill="var(--washi)" stroke="var(--line)"/>
-              <circle cx="115" cy="172" r="3" fill="var(--washi)" stroke="var(--line)"/>
-              <circle cx="200" cy="145" r="3" fill="var(--washi)" stroke="var(--line)"/>
+            <g fill="#2A2317" stroke="#8A7142" stroke-width="2">
+              <circle cx="35" cy="30" r="7"/>
+              <circle cx="115" cy="20" r="7"/>
+              <circle cx="195" cy="30" r="7"/>
+              <circle cx="30" cy="145" r="7"/>
+              <circle cx="115" cy="172" r="7"/>
+              <circle cx="200" cy="145" r="7"/>
             </g>
-            <circle cx="115" cy="95" r="9" fill="var(--shu)"/>
-            <text x="115" y="117" font-family="IBM Plex Mono, monospace" font-size="9" fill="var(--sumi-soft)" text-anchor="middle">основатель</text>
+            <circle cx="115" cy="95" r="14" fill="#D9A646"/>
+            <text x="115" y="123" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="500" fill="#F3EAD9" text-anchor="middle">основатель</text>
           </svg>
         </div>
         <div class="diagram-cell">
           <div class="cap">После · <b>работает без ручного контроля</b></div>
           <svg viewBox="0 0 230 190" xmlns="http://www.w3.org/2000/svg">
-            <g stroke="var(--line)" stroke-width="0.9">
+            <g stroke="#D9A646" stroke-width="2.2" opacity="0.8">
               <line x1="35" y1="36" x2="115" y2="26"/>
               <line x1="115" y1="26" x2="195" y2="36"/>
               <line x1="35" y1="36" x2="30" y2="145"/>
               <line x1="195" y1="36" x2="200" y2="145"/>
               <line x1="30" y1="145" x2="115" y2="172"/>
               <line x1="200" y1="145" x2="115" y2="172"/>
-              <line x1="35" y1="36" x2="200" y2="145" stroke-dasharray="1 4"/>
-              <line x1="195" y1="36" x2="30" y2="145" stroke-dasharray="1 4"/>
             </g>
-            <g font-family="IBM Plex Mono, monospace" font-size="9" fill="var(--muted)" text-anchor="middle">
-              <text x="35" y="26">Продажи</text>
-              <text x="115" y="16">Найм</text>
-              <text x="195" y="26">Финансы</text>
-              <text x="30" y="161">Маркетинг</text>
-              <text x="115" y="188">IT</text>
-              <text x="200" y="161">Подрядчики</text>
+            <g stroke="#6B5A3A" stroke-width="1.4" stroke-dasharray="1 5">
+              <line x1="35" y1="36" x2="200" y2="145"/>
+              <line x1="195" y1="36" x2="30" y2="145"/>
             </g>
-            <g fill="var(--washi)" stroke="var(--shu)" stroke-width="1.4">
-              <circle cx="35" cy="36" r="4"/>
-              <circle cx="115" cy="26" r="4"/>
-              <circle cx="195" cy="36" r="4"/>
-              <circle cx="30" cy="145" r="4"/>
-              <circle cx="115" cy="172" r="4"/>
-              <circle cx="200" cy="145" r="4"/>
+            <g font-family="IBM Plex Mono, monospace" font-size="10" font-weight="500" fill="#C9BBA0" text-anchor="middle">
+              <text x="35" y="24">Продажи</text>
+              <text x="115" y="14">Найм</text>
+              <text x="195" y="24">Финансы</text>
+              <text x="30" y="163">Маркетинг</text>
+              <text x="115" y="190">IT</text>
+              <text x="200" y="163">Подрядчики</text>
+            </g>
+            <g fill="#D9A646" stroke="#F3EAD9" stroke-width="1.6">
+              <circle cx="35" cy="36" r="8"/>
+              <circle cx="115" cy="26" r="8"/>
+              <circle cx="195" cy="36" r="8"/>
+              <circle cx="30" cy="145" r="8"/>
+              <circle cx="115" cy="172" r="8"/>
+              <circle cx="200" cy="145" r="8"/>
             </g>
           </svg>
         </div>
