@@ -33,6 +33,8 @@
     --tag-ok-ink:#3B4A28;
     --tag-pending-bg:#EAD6A8;
     --tag-pending-ink:#754D0E;
+    --tag-verbal-bg:#D6DEE3;
+    --tag-verbal-ink:#2F4653;
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
@@ -41,6 +43,7 @@
       --shu:#D4A94A; --shu-ink:#15120C;
       --tag-ok-bg:#28311D; --tag-ok-ink:#ABCB8B;
       --tag-pending-bg:#3B2C13; --tag-pending-ink:#E4B96C;
+      --tag-verbal-bg:#1F2E35; --tag-verbal-ink:#9CC3D4;
     }
   }
   :root[data-theme="dark"]{
@@ -49,6 +52,7 @@
     --shu:#D4A94A; --shu-ink:#15120C;
     --tag-ok-bg:#28311D; --tag-ok-ink:#ABCB8B;
     --tag-pending-bg:#3B2C13; --tag-pending-ink:#E4B96C;
+    --tag-verbal-bg:#1F2E35; --tag-verbal-ink:#9CC3D4;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -173,6 +177,7 @@
   }
   .tag.ok{background:var(--tag-ok-bg);color:var(--tag-ok-ink);}
   .tag.pending{background:var(--tag-pending-bg);color:var(--tag-pending-ink);}
+  .tag.verbal{background:var(--tag-verbal-bg);color:var(--tag-verbal-ink);}
   .case-featured .tag.ok{background:#28311D;color:#ABCB8B;}
   .case dl{display:grid;grid-template-columns:110px 1fr;gap:10px 20px;margin:0 0 24px;max-width:66ch;}
   .case dt{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;padding-top:3px;}
@@ -410,14 +415,25 @@
         </dl>
       </div>
 
+      <div class="case">
+        <div class="case-top">
+          <h3>Проектное бюро</h3>
+          <span class="tag verbal">Подтверждено лично, без документа</span>
+        </div>
+        <dl>
+          <dt>Контекст</dt>
+          <dd>Два периода (2019–2021, 2022–2023). Официально — системный администратор / менеджер проекта; де-факто во втором периоде — руководитель IT-инфраструктуры.</dd>
+          <dt>Что делал</dt>
+          <dd>После серьёзного сбоя (повреждён RAID, под угрозой все данные) за ~4 месяца восстановил инфраструктуру из разрозненных бэкапов, включая 1С. Позже выстроил триггерную автоматизацию в Jira: при найме сотрудника система сама создавала задачи бухгалтеру, кадрам и IT, собирала итоговое письмо с доступами — ту же логику применил к документообороту и квартальной отчётности.</dd>
+          <dt>Результат</dt>
+          <dd>Инфраструктура выдержала критический сбой без потери данных. Обязательные кадровые шаги перестали пропускаться и срываться по срокам.</dd>
+        </dl>
+      </div>
+
       <div class="minor-cases">
         <div class="case minor">
           <div class="case-top"><h3>География путешествий</h3></div>
           <p>Выстраивал воронку и CRM, разбирал экономику направлений — цифры результата собираются и будут указаны только после проверки первичного расчёта.</p>
-        </div>
-        <div class="case minor">
-          <div class="case-top"><h3>Проектное бюро</h3></div>
-          <p>Системный администратор / менеджер проекта, два периода 2019–2023. Серверная инфраструктура, сети, виртуализация, Jira/Confluence, ДИ и ISO-документация. Инициировал и координировал проект автоматического чтения инженерных чертежей нейросетью — не как разработчик модели, а как организатор между бизнесом, инженером и техническими исполнителями.</p>
         </div>
       </div>
 
