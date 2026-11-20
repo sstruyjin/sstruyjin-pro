@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+
+User-Agent: OAI-SearchBot
+User-Agent: PerplexityBot
+User-Agent: Claude-SearchBot
+User-Agent: Googlebot
+User-Agent: Yandex
+Allow: /
+
+Sitemap: https://sstryujin.pro/sitemap.xml
