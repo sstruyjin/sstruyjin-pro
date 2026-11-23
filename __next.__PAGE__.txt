@@ -1,62 +1,69 @@
 1:"$Sreact.fragment"
 3:I[7121,[],""]
 4:I[4581,[],""]
-8:"static/chunks/742-31078b28e951b010.js"
-9:"static/chunks/app/page-4f1984ea583e12e2.js"
-a:I[2904,["742","$8","974","$9"],"default"]
+8:"static/chunks/481-18e07cb8fd8b5f45.js"
+9:"static/chunks/app/page-93619de0c7e407a4.js"
+a:I[2904,["481","$8","974","$9"],"default"]
 13:"ViewportBoundary"
 14:I[484,[],"$13"]
 15:"MetadataBoundary"
 16:I[484,[],"$15"]
 17:"$Sreact.suspense"
 :HL["/_next/static/css/79c7000ad775e350.css","style"]
-:HL["/_next/static/css/8a8c3ca723b6e79b.css","style"]
+:HL["/_next/static/css/080faa98cf474487.css","style"]
 2:T773,{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://sstryujin.pro/#person","name":"Владимир Сикорский","alternateName":"sstryujin","jobTitle":"Руководитель по развитию, операционный руководитель","description":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо.","url":"https://sstryujin.pro/","image":"https://sstryujin.pro/images/site/p101.jpg","address":{"@type":"PostalAddress","addressLocality":"Минск","addressCountry":"BY"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Московский международный университет"},{"@type":"EducationalOrganization","name":"Минское суворовское военное училище"}],"knowsAbout":["Операционное управление","Организационная структура и регламентация","Регулярный менеджмент и развитие руководителей","Внедрение Bitrix24 и amoCRM","Управленческий учёт P&L и ДДС","Связка маркетинга, колл-центра и продаж","Прикладное внедрение ИИ в бизнес-процессы","Сложные деловые переговоры"],"sameAs":["https://t.me/sstruyjin","https://www.instagram.com/sstryujin/","https://rabota.by/resume/1dcd7aedff113238660039ed1f6d45596a4139"]},{"@type":"WebSite","@id":"https://sstryujin.pro/#website","url":"https://sstryujin.pro/","name":"Владимир Сикорский","inLanguage":"ru-RU","publisher":{"@id":"https://sstryujin.pro/#person"}}]}6:X
 7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","header",null,{"className":"sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm","children":["$","div",null,{"className":"mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-8 lg:px-12","children":[["$","a",null,{"href":"#top","className":"flex items-center gap-2.5 text-foreground","children":[["$","span",null,{"className":"h-7 w-6","children":["$","$La",null,{}]}],["$","span",null,{"className":"font-display text-lg leading-none","children":"Владимир Сикорский"}]]}],"$Lb"]}]}],"$Lc","$Ld","$Le","$Lf","$L10"],null,"$L11"]}],"p":"$@12","v":null,"s":"$6"}}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79c7000ad775e350.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/8a8c3ca723b6e79b.css","precedence":"next"}]],["$","html",null,{"lang":"ru","className":"h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('site-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}],["$","meta","1",{"name":"description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}],"$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27"]}]}],null]}],null]}],"p":"$@28","v":null,"s":"$6"}},"a":"$@29","u":"$@2a","b":"AiWFUZGQyGxpIZ6_jPr4H"}
-2b:I[7166,["742","$8","974","$9"],"default"]
-2c:I[1777,["742","$8","974","$9"],"default"]
-2d:I[2482,["742","$8","974","$9"],"Block"]
-2e:I[2482,["742","$8","974","$9"],"T"]
-2f:I[3902,["742","$8","974","$9"],"ContactButton"]
-30:I[2482,["742","$8","974","$9"],"Pic"]
-31:I[3097,["742","$8","974","$9"],"default"]
-32:I[9570,["742","$8","974","$9"],"default"]
-33:I[1361,["742","$8","974","$9"],"default"]
-34:I[3986,["742","$8","974","$9"],"default"]
-35:I[3902,["742","$8","974","$9"],"default"]
-36:I[5411,["742","$8","974","$9"],"default"]
-37:I[2053,["742","$8","974","$9"],"EditBar"]
-38:I[484,[],"OutletBoundary"]
-3a:I[6869,[],"IconMark"]
-b:["$","nav",null,{"className":"flex items-center gap-3 sm:gap-6","children":[[["$","a","#work",{"href":"#work","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Результаты"}],["$","a","#experience",{"href":"#experience","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Опыт"}],["$","a","#about",{"href":"#about","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Обо мне"}],["$","a","#contact",{"href":"#contact","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Контакты"}]],["$","$L2b",null,{}],["$","$L2c",null,{}]]}]
-c:["$","main",null,{"className":"flex flex-1 flex-col","children":[["$","$L2d",null,{"id":"hero","children":["$","section",null,{"id":"top","className":"slate-section border-b border-border","children":["$","div",null,{"className":"relative z-10 mx-auto max-w-6xl px-5 pb-12 pt-8 sm:px-8 lg:px-12 lg:pb-16 lg:pt-12","children":[["$","$L2e",null,{"k":"hero.name","as":"h1","className":"intro font-display text-[clamp(1.95rem,6.2vw,4.8rem)] font-medium leading-[0.98] tracking-[-0.025em] text-foreground","delay":"0ms"}],["$","$L2e",null,{"k":"hero.role","as":"p","className":"intro mt-3 text-base font-medium text-verdigris sm:text-lg","delay":"0ms"}],["$","div",null,{"className":"mt-7 grid gap-9 border-t border-rule pt-8 lg:mt-9 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-14 lg:pt-10","children":[["$","div",null,{"className":"flex min-w-0 flex-col items-start","children":[["$","$L2e",null,{"k":"hero.title","as":"p","className":"intro max-w-[22ch] font-display text-[clamp(1.8rem,3.3vw,2.8rem)] leading-[1.13] tracking-[-0.02em] text-foreground text-balance","delay":"110ms"}],["$","$L2e",null,{"k":"hero.sub","as":"p","className":"intro mt-5 max-w-[48ch] text-base leading-relaxed text-foreground/80 sm:text-lg","delay":"180ms"}],["$","div",null,{"className":"intro mt-8 flex flex-wrap items-center gap-3.5","style":{"--d":"240ms"},"children":["$","$L2f",null,{"className":"cta","children":["$","$L2e",null,{"k":"hero.cta"}]}]}]]}],["$","div",null,{"className":"photo-reveal relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-sm bg-muted shadow-[0_40px_80px_-36px_rgba(0,0,0,0.78)] lg:max-w-none","children":["$","$L30",null,{"slot":"hero","src":"/images/site/p101.jpg","alt":"Портрет Владимира Сикорского","priority":true,"sizes":"(min-width: 1024px) 36vw, 92vw","className":"object-cover object-[50%_18%]"}]}]]}]]}]}]}],["$","$L2d",null,{"id":"work","children":["$","$L31",null,{}]}],["$","$L2d",null,{"id":"experience","children":["$","$L32",null,{}]}],["$","$L2d",null,{"id":"about","children":["$","$L33",null,{}]}],["$","$L2d",null,{"id":"contact","children":["$","$L34",null,{}]}]]}]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79c7000ad775e350.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/080faa98cf474487.css","precedence":"next"}]],["$","html",null,{"lang":"ru","className":"h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('site-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}],["$","meta","1",{"name":"description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}],"$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f"]}]}],null]}],null]}],"p":"$@30","v":null,"s":"$6"}},"a":"$@31","u":"$@32","b":"nN1dAS-UZp0LB3EZzJe33"}
+33:I[1777,["481","$8","974","$9"],"default"]
+34:I[2482,["481","$8","974","$9"],"Block"]
+35:I[2482,["481","$8","974","$9"],"T"]
+36:I[3902,["481","$8","974","$9"],"ContactButton"]
+37:I[2482,["481","$8","974","$9"],"Pic"]
+38:I[3097,["481","$8","974","$9"],"default"]
+39:I[9570,["481","$8","974","$9"],"default"]
+3a:I[1361,["481","$8","974","$9"],"default"]
+3b:I[3986,["481","$8","974","$9"],"default"]
+3c:I[3902,["481","$8","974","$9"],"default"]
+3d:I[5411,["481","$8","974","$9"],"default"]
+3e:I[2053,["481","$8","974","$9"],"EditBar"]
+3f:I[484,[],"OutletBoundary"]
+41:I[6869,[],"IconMark"]
+b:["$","nav",null,{"className":"flex items-center gap-3 sm:gap-6","children":[[["$","a","#work",{"href":"#work","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Практика"}],["$","a","#experience",{"href":"#experience","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Опыт"}],["$","a","#about",{"href":"#about","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Обо мне"}],["$","a","#contact",{"href":"#contact","className":"hidden text-sm text-muted-foreground transition-colors hover:text-foreground lg:inline","children":"Контакты"}]],["$","$L33",null,{}]]}]
+c:["$","main",null,{"className":"flex flex-1 flex-col","children":[["$","$L34",null,{"id":"hero","children":["$","section",null,{"id":"top","className":"slate-section border-b border-border","children":["$","div",null,{"className":"relative z-10 mx-auto max-w-6xl px-5 pb-12 pt-8 sm:px-8 lg:px-12 lg:pb-16 lg:pt-12","children":[["$","$L35",null,{"k":"hero.name","as":"h1","className":"intro font-display text-[clamp(1.95rem,6.2vw,4.8rem)] font-medium leading-[0.98] tracking-[-0.025em] text-foreground","delay":"0ms"}],["$","$L35",null,{"k":"hero.role","as":"p","className":"intro mt-3 text-base font-medium text-verdigris sm:text-lg","delay":"0ms"}],["$","div",null,{"className":"mt-7 grid gap-9 border-t border-rule pt-8 lg:mt-9 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-14 lg:pt-10","children":[["$","div",null,{"className":"flex min-w-0 flex-col items-start","children":[["$","$L35",null,{"k":"hero.title","as":"p","className":"intro max-w-[22ch] font-display text-[clamp(1.8rem,3.3vw,2.8rem)] leading-[1.13] tracking-[-0.02em] text-foreground text-balance","delay":"110ms"}],["$","$L35",null,{"k":"hero.sub","as":"p","className":"intro mt-5 max-w-[48ch] text-base leading-relaxed text-foreground/80 sm:text-lg","delay":"180ms"}],["$","div",null,{"className":"intro mt-8 flex flex-wrap items-center gap-3.5","style":{"--d":"240ms"},"children":["$","$L36",null,{"className":"cta","children":["$","$L35",null,{"k":"hero.cta"}]}]}]]}],["$","div",null,{"className":"photo-reveal relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-sm bg-muted shadow-[0_40px_80px_-36px_rgba(0,0,0,0.78)] lg:max-w-none","children":["$","$L37",null,{"slot":"hero","src":"/images/site/p101.jpg","alt":"Портрет Владимира Сикорского","priority":true,"sizes":"(min-width: 1024px) 36vw, 92vw","className":"object-cover object-[50%_18%]"}]}]]}]]}]}]}],["$","$L34",null,{"id":"work","children":["$","$L38",null,{}]}],["$","$L34",null,{"id":"experience","children":["$","$L39",null,{}]}],["$","$L34",null,{"id":"about","children":["$","$L3a",null,{}]}],["$","$L34",null,{"id":"contact","children":["$","$L3b",null,{}]}]]}]
 d:["$","footer",null,{"className":"border-t border-border bg-background","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 pb-24 pt-8 text-xs text-muted-foreground sm:px-8 sm:pb-8 lg:px-12","children":[["$","span",null,{"className":"font-mono-meta text-bronze","children":"sstryujin.pro"}],["$","span",null,{"children":"Владимир Сикорский, руководитель по развитию, Минск"}],["$","a",null,{"href":"/privacy","className":"underline underline-offset-4 hover:text-foreground","children":"Обработка персональных данных"}]]}]}]
-e:["$","$L35",null,{}]
-f:["$","$L36",null,{}]
-10:["$","$L37",null,{}]
-11:["$","$L38",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@39"}]}]
-18:["$","meta","2",{"name":"keywords","content":"Владимир Сикорский,sstryujin,операционный директор Минск,руководитель по развитию Беларусь,выход собственника из операционки,настройка бизнес-процессов,внедрение Bitrix24,управленческий учёт P&L ДДС,внедрение ИИ в бизнес"}]
-19:["$","meta","3",{"name":"robots","content":"noindex, nofollow"}]
-1a:["$","link","4",{"rel":"canonical","href":"https://sstryujin.pro"}]
-1b:["$","meta","5",{"property":"og:title","content":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}]
-1c:["$","meta","6",{"property":"og:description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}]
-1d:["$","meta","7",{"property":"og:url","content":"https://sstryujin.pro"}]
-1e:["$","meta","8",{"property":"og:site_name","content":"Владимир Сикорский"}]
-1f:["$","meta","9",{"property":"og:locale","content":"ru_RU"}]
-20:["$","meta","10",{"property":"og:image","content":"https://sstryujin.pro/og.jpg"}]
-21:["$","meta","11",{"property":"og:type","content":"website"}]
-22:["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}]
-23:["$","meta","13",{"name":"twitter:title","content":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}]
-24:["$","meta","14",{"name":"twitter:description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}]
-25:["$","meta","15",{"name":"twitter:image","content":"https://sstryujin.pro/og.jpg"}]
-26:["$","link","16",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}]
-27:["$","$L3a","17",{}]
+e:["$","$L3c",null,{}]
+f:["$","$L3d",null,{}]
+10:["$","$L3e",null,{}]
+11:["$","$L3f",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@40"}]}]
+18:["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}]
+19:["$","meta","3",{"name":"keywords","content":"Владимир Сикорский,sstryujin,операционный директор Минск,руководитель по развитию Беларусь,выход собственника из операционки,настройка бизнес-процессов,внедрение Bitrix24,управленческий учёт P&L ДДС,внедрение ИИ в бизнес"}]
+1a:["$","meta","4",{"name":"robots","content":"noindex, nofollow"}]
+1b:["$","link","5",{"rel":"canonical","href":"https://sstryujin.pro"}]
+1c:["$","meta","6",{"name":"mobile-web-app-capable","content":"yes"}]
+1d:["$","meta","7",{"name":"apple-mobile-web-app-title","content":"sstryujin.pro"}]
+1e:["$","meta","8",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}]
+1f:["$","meta","9",{"property":"og:title","content":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}]
+20:["$","meta","10",{"property":"og:description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}]
+21:["$","meta","11",{"property":"og:url","content":"https://sstryujin.pro"}]
+22:["$","meta","12",{"property":"og:site_name","content":"Владимир Сикорский"}]
+23:["$","meta","13",{"property":"og:locale","content":"ru_RU"}]
+24:["$","meta","14",{"property":"og:image","content":"https://sstryujin.pro/og.jpg"}]
+25:["$","meta","15",{"property":"og:type","content":"website"}]
+26:["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}]
+27:["$","meta","17",{"name":"twitter:title","content":"Владимир Сикорский | Операционное управление и развитие компаний (Минск)"}]
+28:["$","meta","18",{"name":"twitter:description","content":"Выстраиваю систему управления, процессы, Bitrix24, управленческий учёт P&L/ДДС и работу руководителей, чтобы собственник мог выйти из операционки. Минск, Беларусь, удалённо."}]
+29:["$","meta","19",{"name":"twitter:image","content":"https://sstryujin.pro/og.jpg"}]
+2a:["$","link","20",{"rel":"icon","href":"/favicon.ico?70010e430b310f66","type":"image/x-icon","sizes":"48x48"}]
+2b:["$","link","21",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}]
+2c:["$","link","22",{"rel":"icon","href":"/icon-192.png","sizes":"192x192","type":"image/png"}]
+2d:["$","link","23",{"rel":"icon","href":"/icon-512.png","sizes":"512x512","type":"image/png"}]
+2e:["$","link","24",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+2f:["$","$L41","25",{}]
 6:300
-39:null
-2a:true
+40:null
+32:true
 6:C
-29:0
+31:0
 5:"$undefined"
-28:"$undefined"
+30:"$undefined"
 12:"$undefined"
