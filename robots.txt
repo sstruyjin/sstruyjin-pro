@@ -1,11 +1,16 @@
 User-Agent: *
 Allow: /
 
-User-Agent: OAI-SearchBot
-User-Agent: PerplexityBot
-User-Agent: Claude-SearchBot
 User-Agent: Googlebot
 User-Agent: Yandex
+User-Agent: YandexBot
+User-Agent: OAI-SearchBot
+User-Agent: GPTBot
+User-Agent: PerplexityBot
+User-Agent: Claude-SearchBot
+User-Agent: ClaudeBot
+User-Agent: Applebot-Extended
 Allow: /
 
+Host: https://sstryujin.pro
 Sitemap: https://sstryujin.pro/sitemap.xml

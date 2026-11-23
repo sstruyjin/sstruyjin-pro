@@ -4,42 +4,52 @@
 5:"static/chunks/500-fc3b64d9ff4a32a7.js"
 6:"static/chunks/app/layout-e6dfa19647327ab8.js"
 7:I[7298,["500","$5","177","$6"],"default"]
-e:I[484,[],"OutletBoundary"]
-f:"$Sreact.suspense"
 12:"ViewportBoundary"
 13:I[484,[],"$12"]
 14:"MetadataBoundary"
 15:I[484,[],"$14"]
+16:"$Sreact.suspense"
 :HL["/_next/static/css/79c7000ad775e350.css","style"]
 :HL["/_next/static/css/90a19daf0d1412e9.css","style"]
-2:T75a,{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://sstryujin.pro/#person","name":"Владимир Сикорский","alternateName":"sstryujin","jobTitle":"Руководитель по развитию, операционный руководитель","description":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ.","url":"https://sstryujin.pro/","image":"https://sstryujin.pro/images/site/p101.jpg","address":{"@type":"PostalAddress","addressLocality":"Минск","addressCountry":"BY"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Московский международный университет"},{"@type":"EducationalOrganization","name":"Минское суворовское военное училище"}],"knowsAbout":["Операционное управление","Организационная структура и регламентация","Регулярный менеджмент и развитие руководителей","Внедрение Bitrix24 и amoCRM","Управленческий учёт P&L и ДДС","Связка маркетинга, колл-центра и продаж","Прикладное внедрение ИИ в бизнес-процессы","Сложные деловые переговоры"],"sameAs":["https://t.me/sstruyjin","https://www.instagram.com/sstryujin/","https://rabota.by/resume/1dcd7aedff113238660039ed1f6d45596a4139"]},{"@type":"WebSite","@id":"https://sstryujin.pro/#website","url":"https://sstryujin.pro/","name":"Владимир Сикорский","inLanguage":"ru-RU","publisher":{"@id":"https://sstryujin.pro/#person"}}]}9:X
+2:Ta6d,{"@context":"https://schema.org","@graph":[{"@type":"ProfilePage","@id":"https://sstryujin.pro/#profilepage","url":"https://sstryujin.pro/","name":"Владимир Сикорский — управление и развитие бизнеса","description":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ.","inLanguage":"ru-RU","dateModified":"2026-11-23","mainEntity":{"@id":"https://sstryujin.pro/#person"},"isPartOf":{"@id":"https://sstryujin.pro/#website"}},{"@type":"Person","@id":"https://sstryujin.pro/#person","name":"Владимир Сикорский","alternateName":"sstryujin","jobTitle":"Руководитель по развитию и операционному управлению","description":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ.","url":"https://sstryujin.pro/","mainEntityOfPage":"https://sstryujin.pro/","image":"https://sstryujin.pro/images/site/p101.jpg","address":{"@type":"PostalAddress","addressLocality":"Минск","addressCountry":"BY"},"knowsLanguage":["ru","be","en"],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Московский международный университет"},{"@type":"EducationalOrganization","name":"Минское суворовское военное училище"}],"knowsAbout":["Операционное управление","Организационная структура и распределение ответственности","Регулярный менеджмент и развитие руководителей","Внедрение Bitrix24 и amoCRM","Финансы и экономика бизнеса (P&L, ДДС)","Маркетинг и связка с колл-центром и продажами","Внедрение ИИ в работу компаний","Переговоры и управленческие поединки"],"sameAs":["https://t.me/sstruyjin","https://www.instagram.com/sstryujin/","https://rabota.by/resume/1dcd7aedff113238660039ed1f6d45596a4139"]},{"@type":"WebSite","@id":"https://sstryujin.pro/#website","url":"https://sstryujin.pro/","name":"Владимир Сикорский","inLanguage":"ru-RU","publisher":{"@id":"https://sstryujin.pro/#person"}}]}9:X
 c:X
 c:C
-d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$9"}}]]
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],"$Le","$Lf"]}]}]],null,"$L10"]}],"p":"$@11","v":null,"s":"$9"}}]]
 a:[["children",{"s":"_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79c7000ad775e350.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/90a19daf0d1412e9.css","precedence":"next"}]],["$","html",null,{"lang":"ru","className":"h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('site-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"min-h-full flex flex-col","children":[["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}],["$","$L7",null,{}],""]}]]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Владимир Сикорский — управление и развитие бизнеса"}],["$","meta","1",{"name":"description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","3",{"name":"keywords","content":"Владимир Сикорский,sstryujin,операционный директор Минск,руководитель по развитию Беларусь,выход собственника из операционки,настройка бизнес-процессов,внедрение Bitrix24,управленческий учёт P&L ДДС,внедрение ИИ в бизнес"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://sstryujin.pro"}],["$","meta","6",{"name":"mobile-web-app-capable","content":"yes"}],["$","meta","7",{"name":"apple-mobile-web-app-title","content":"sstryujin.pro"}],["$","meta","8",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}],["$","meta","9",{"property":"og:title","content":"Владимир Сикорский — управление и развитие бизнеса"}],["$","meta","10",{"property":"og:description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24"]}]}],null]}],null]}],"p":"$@25","v":null,"s":"$9"}},"a":"$@26","u":"$@27","b":"HRBI8oi5c79_Kt1ZRyC8N"}
-28:I[6869,[],"IconMark"]
-10:null
-16:["$","meta","11",{"property":"og:url","content":"https://sstryujin.pro"}]
-17:["$","meta","12",{"property":"og:site_name","content":"Владимир Сикорский"}]
-18:["$","meta","13",{"property":"og:locale","content":"ru_RU"}]
-19:["$","meta","14",{"property":"og:image","content":"https://sstryujin.pro/og.jpg"}]
-1a:["$","meta","15",{"property":"og:type","content":"website"}]
-1b:["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}]
-1c:["$","meta","17",{"name":"twitter:title","content":"Владимир Сикорский — управление и развитие бизнеса"}]
-1d:["$","meta","18",{"name":"twitter:description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}]
-1e:["$","meta","19",{"name":"twitter:image","content":"https://sstryujin.pro/og.jpg"}]
-1f:["$","link","20",{"rel":"icon","href":"/favicon.ico?31b8b51fd3407ae0","type":"image/x-icon","sizes":"48x48"}]
-20:["$","link","21",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}]
-21:["$","link","22",{"rel":"icon","href":"/icon-192.png","sizes":"192x192","type":"image/png"}]
-22:["$","link","23",{"rel":"icon","href":"/icon-512.png","sizes":"512x512","type":"image/png"}]
-23:["$","link","24",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
-24:["$","$L28","25",{}]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/79c7000ad775e350.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/90a19daf0d1412e9.css","precedence":"next"}]],["$","html",null,{"lang":"ru","className":"h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"alternate","type":"text/plain","href":"/llms.txt","title":"LLMs summary"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('site-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"min-h-full flex flex-col","children":[["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}],["$","$L7",null,{}],""]}]]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Владимир Сикорский — управление и развитие бизнеса"}],["$","meta","1",{"name":"description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","3",{"name":"keywords","content":"Владимир Сикорский,sstryujin,управление и развитие бизнеса,руководитель по развитию,операционное управление,перестройка оргструктуры,развитие руководителей,внедрение Bitrix24,экономика бизнеса P&L ДДС,внедрение ИИ в компании,Минск Беларусь удалённо"}],"$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c"]}]}],null]}],null]}],"p":"$@2d","v":null,"s":"$9"}},"a":"$@2e","u":"$@2f","b":"x_nOWGYC1wUZxULsQuQgT"}
+30:I[484,[],"OutletBoundary"]
+32:I[6869,[],"IconMark"]
+e:["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}]
+f:["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]
+10:["$","$L30",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
+17:["$","meta","4",{"name":"robots","content":"index, follow"}]
+18:["$","link","5",{"rel":"canonical","href":"https://sstryujin.pro"}]
+19:["$","meta","6",{"name":"mobile-web-app-capable","content":"yes"}]
+1a:["$","meta","7",{"name":"apple-mobile-web-app-title","content":"sstryujin.pro"}]
+1b:["$","meta","8",{"name":"apple-mobile-web-app-status-bar-style","content":"black-translucent"}]
+1c:["$","meta","9",{"property":"og:title","content":"Владимир Сикорский — управление и развитие бизнеса"}]
+1d:["$","meta","10",{"property":"og:description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}]
+1e:["$","meta","11",{"property":"og:url","content":"https://sstryujin.pro"}]
+1f:["$","meta","12",{"property":"og:site_name","content":"Владимир Сикорский"}]
+20:["$","meta","13",{"property":"og:locale","content":"ru_RU"}]
+21:["$","meta","14",{"property":"og:image","content":"https://sstryujin.pro/og.jpg"}]
+22:["$","meta","15",{"property":"og:type","content":"website"}]
+23:["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}]
+24:["$","meta","17",{"name":"twitter:title","content":"Владимир Сикорский — управление и развитие бизнеса"}]
+25:["$","meta","18",{"name":"twitter:description","content":"Разбираюсь, как устроен бизнес, нахожу причины проблем и вместе с командой внедряю решения. Операционное управление, маркетинг, CRM, финансы и внедрение ИИ."}]
+26:["$","meta","19",{"name":"twitter:image","content":"https://sstryujin.pro/og.jpg"}]
+27:["$","link","20",{"rel":"icon","href":"/favicon.ico?31b8b51fd3407ae0","type":"image/x-icon","sizes":"48x48"}]
+28:["$","link","21",{"rel":"icon","href":"/favicon.ico","sizes":"48x48"}]
+29:["$","link","22",{"rel":"icon","href":"/icon-192.png","sizes":"192x192","type":"image/png"}]
+2a:["$","link","23",{"rel":"icon","href":"/icon-512.png","sizes":"512x512","type":"image/png"}]
+2b:["$","link","24",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+2c:["$","$L32","25",{}]
 9:300
-27:true
+31:null
+2f:true
 9:C
-26:0
+2e:0
 b:"$undefined"
 8:"$undefined"
-25:"$undefined"
+2d:"$undefined"
 11:"$undefined"
